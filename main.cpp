@@ -9,19 +9,13 @@ bool isEven(int n) { return (n % 2 == 0); }
 
 int main() {
 
-	int t = 0;
-	cin >> t;
-	while (t--) {
+	ll n;
+	cin >> n;
+	ll ans = 0;
+	for (ll k = 1; k <= n; k++) {
 
-		ll x, y;
-		cin >> x >> y;
+		ans = ((k * k * (k * k - 1)) / 2) - (4 * (k - 1) * (k - 2));
 
-		ll mx = 0;
-		ll ans = 0;
-
-		mx = max(x, y);
-
-
-		cout << ans << endl;
+		cout << ans << "\n";
 	}
 }
