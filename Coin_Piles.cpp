@@ -4,6 +4,7 @@ using namespace std;
 #define ll long long
 
 //push https://github.com/U7K4R5H/cses.fi-problemset.git master
+//https://youtu.be/gtqJJlvRpw8?si=HnUmqQ72HFublQnB
 
 bool isEven(ll n) { return (n % 2 == 0); }
 
